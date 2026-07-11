@@ -1,0 +1,15 @@
+{
+  "item.alchemicraft.sulfur_chunk": "Sulfur Chunk",
+  "item.alchemicraft.cinnabar_chunk": "Cinnabar Chunk",
+
+  "item.alchemicraft.blue_vitriol_crystal": "Blue Vitriol",
+  "item.alchemicraft.green_vitriol_crystal": "Green Vitriol",
+  "item.alchemicraft.red_vitriol_crystal": "Red Vitriol",
+
+  "item.alchemicraft.blue_vitriol_dust": "Pure Blue Vitriolic Dust",
+  "item.alchemicraft.green_vitriol_dust": "Pure Green Vitriolic Dust",
+  "item.alchemicraft.red_vitriol_dust": "Pure Red Vitriolic Dust",
+
+  "item.alchemicraft.test_tick_less": "Testing Crystal",
+  "item.alchemicraft.test_tick_les": "Testing Bud (Random Tick)"
+}

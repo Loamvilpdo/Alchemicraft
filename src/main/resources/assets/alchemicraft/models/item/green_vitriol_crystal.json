@@ -1,0 +1,7 @@
+
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "alchemicraft:item/green_vitriol_crystal"
+  }
+}

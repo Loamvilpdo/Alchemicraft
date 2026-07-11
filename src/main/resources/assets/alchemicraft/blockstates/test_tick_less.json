@@ -1,0 +1,30 @@
+{
+  "variants": {
+    "facing=down": {
+      "model": "alchemicraft:block/test_tick_less",
+      "x": 180
+    },
+    "facing=east": {
+      "model": "alchemicraft:block/test_tick_less",
+      "x": 90,
+      "y": 90
+    },
+    "facing=north": {
+      "model": "alchemicraft:block/test_tick_less",
+      "x": 90
+    },
+    "facing=south": {
+      "model": "alchemicraft:block/test_tick_less",
+      "x": 90,
+      "y": 180
+    },
+    "facing=up": {
+      "model": "alchemicraft:block/test_tick_less"
+    },
+    "facing=west": {
+      "model": "alchemicraft:block/test_tick_less",
+      "x": 90,
+      "y": 270
+    }
+  }
+}
