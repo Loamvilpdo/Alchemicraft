@@ -17,6 +17,16 @@ import static net.minecraft.world.item.Items.*;
 public class OreBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Alchemicraft.MOD_ID);
 
+    public static final DeferredBlock<Block> SMALL_BLUE_VITRIOL_CRYSTAL = BLOCKS.register("small_blue_vitriol_bud",
+            () -> new CrystalBuds(4, 3, BlockBehaviour.Properties.of().destroyTime(2.0f).lightLevel(state -> 1)));
+    public static final DeferredBlock<Block> MEDIUM_BLUE_VITRIOL_CRYSTAL = BLOCKS.register("medium_blue_vitriol_bud",
+            () -> new CrystalBuds(8, 3, BlockBehaviour.Properties.of().destroyTime(2.0f).lightLevel(state -> 1)));
+    public static final DeferredBlock<Block> LARGE_BLUE_VITRIOL_CRYSTAL = BLOCKS.register("large_blue_vitriol_bud",
+            () -> new CrystalBuds(12, 2, BlockBehaviour.Properties.of().destroyTime(2.0f).lightLevel(state -> 1)));
+    public static final DeferredBlock<Block> BLUE_VITRIOL_CRYSTAL = BLOCKS.register("blue_vitriol_crystal",
+            () -> new CrystalBuds(16, 2, BlockBehaviour.Properties.of().destroyTime(2.0f).lightLevel(state -> 1)));
+
+    //Archetypal Geode + Bud
     public static final DeferredBlock<Block> MAGIC_CRYSTAL = BLOCKS.register("test_tick_less",
             () -> new CrystalBuds(4, 1, BlockBehaviour.Properties.of().destroyTime(2.0f)));
 
